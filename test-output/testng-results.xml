@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2738" started-at="2021-11-11T14:00:38Z" finished-at="2021-11-11T14:00:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2738" started-at="2021-11-11T14:00:38Z" finished-at="2021-11-11T14:00:41Z">
+      <class name="org.will.DataDriven_Provider">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.will.DataDriven_Provider@6a4f787b]" name="test" duration-ms="16" started-at="2021-11-11T14:00:41Z" data-provider="datas" finished-at="2021-11-11T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.will.DataDriven_Provider@6a4f787b]" name="test" duration-ms="0" started-at="2021-11-11T14:00:41Z" data-provider="datas" finished-at="2021-11-11T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.will.DataDriven_Provider@6a4f787b]" name="test" duration-ms="0" started-at="2021-11-11T14:00:41Z" data-provider="datas" finished-at="2021-11-11T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahwin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4825356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.will.DataDriven_Provider@6a4f787b]" name="test" duration-ms="0" started-at="2021-11-11T14:00:41Z" data-provider="datas" finished-at="2021-11-11T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345656]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:org.will.DataDriven_Provider@6a4f787b]" name="test" duration-ms="0" started-at="2021-11-11T14:00:41Z" data-provider="datas" finished-at="2021-11-11T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[giri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9954954]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.will.DataDriven_Provider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

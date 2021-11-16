@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="group1">
+				<include name="regression"></include>
+				<include name="smoke"></include>
+			</define>
+			<define name="group2">
+				<include name="retest"></include>
+				<include name="sanity"></include>
+			</define>
+			<run>
+				<exclude name="group1"></exclude>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="org.will.Group" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
